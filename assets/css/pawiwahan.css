@@ -87,11 +87,11 @@ img.card-img-top {
   box-shadow: 12px 12px 20px #caced1, -12px -12px 20px white;
 }
 h1.display-12.text-center {
-  padding: 4rem 0;
+  padding: 3.5rem 0;
   background-image: url(../../assets/images/ornam/Asset7a.png);
   background-repeat: no-repeat;
   background-position: top 15px center;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 #mpl{
   background-image: url(../../assets/images/ornam/Asset3.png),url(../../assets/images/ornam/Asset2.png);
