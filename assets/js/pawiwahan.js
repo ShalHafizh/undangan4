@@ -42,10 +42,15 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 function closeWelcomeModal() {
+  const headerElement = document.getElementById('fh5co-header');
+  if (headerElement) {
+    headerElement.scrollIntoView({
+      behavior: 'smooth'
+    });
+  }
   welcomeModal.style.display = "none";
-  myAudio.play()
+  myAudio.play();
 }
-
 // play music in background
 function toggleAudio(value) {
   return !value.checked ? myAudio.play() : myAudio.pause();

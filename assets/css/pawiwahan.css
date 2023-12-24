@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body{
-  background-color: #e8ebee;
+  background-color: #fdf3f9;
 }
 .jumbotron {
   padding: 6rem 1rem;
@@ -16,6 +16,7 @@ body{
 }
 .jumbotron-h{
   padding: 0rem;
+  color: #f214a0;
 }
 section {
   padding-top: 3rem;
@@ -87,11 +88,11 @@ img.card-img-top {
   box-shadow: 12px 12px 20px #caced1, -12px -12px 20px white;
 }
 h1.display-12.text-center {
-  padding: 4rem 0;
+  padding: 3.5rem 0;
   background-image: url(../../assets/images/ornam/Asset7a.png);
   background-repeat: no-repeat;
   background-position: top 15px center;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 #mpl{
   background-image: url(../../assets/images/ornam/Asset3.png),url(../../assets/images/ornam/Asset2.png);
@@ -557,4 +558,21 @@ fadeIn {  from {
   left: 50%;
   transform: translate(-50%, 50%);
   position: absolute;
+}
+
+/* CSS */
+@keyframes fadeUpAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(50px); /* Pindahkan elemen ke atas */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Tambahkan kelas animasi */
+.fade-up {
+  animation: fadeUpAnimation 1s ease forwards;
 }
